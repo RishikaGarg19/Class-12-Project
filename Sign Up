@@ -1,0 +1,76 @@
+<HTML>
+<HEAD>
+<TITLE> update</TITLE> </HEAD>
+<BODY bgcolor="#EBD6FF">
+<?PHP
+
+if(isset($_POST['update']))
+{   $servername = 'localhost' ;
+$username = 'root' ;
+$passwd = '' ;
+$dbname = 'web' ; 
+$userID=$_POST["userID"] ;
+$name=$_POST["name"] ;
+$pass=$_POST["pass"] ; 
+$email=$_POST["email"] ;
+$conn = mysqli_connect ($servername , $username , $passwd , $dbname) ;
+
+if (! $conn )
+{   
+	die ( "connection failed : " . mysqli_connect_error ()) ;
+}
+$sql = " insert into members (userID , name , pass , email) values ('$userID' , '$name' , '$pass' , '$email')" ;
+if (mysqli_query ($conn , $sql))
+{
+	if (mysqli_affected_rows ($conn)>0)
+
+echo "record inserted successfully" ; 
+else
+echo "no data found" 
+}
+else
+{	
+echo "error updating record: " . mysqli_error($conn) ;
+}
+mysqli_close ($conn) 
+}
+?>
+
+<FONT face="Palatino Linotype" color="black"> <h1 align="CENTER"> Be a Member of our Group ! </h1>
+<BR> <A href="intro.html">Go to home page</A> </FONT> 
+
+<FONT face="Gabriola" color="black" size="6">
+<form method="post" action="<?PHP $_PHP_SELF ?>" >
+<fieldset style="width:30%"> <legend>Registration Form</legend>
+ <TABLE border="0"> <TR> 
+ <FONT color="black">
+ 
+<TD> Name </TD> <TD>
+ <INPUT type="text" name="name"> </TD> </TR> 
+ <TR> <TD>Email</TD> <TD> <INPUT type="text" name="email"> </TD>
+ </TR> <TR> <TD>UserName</TD> <TD> <INPUT type="text" name="userID"> </TD> </TR> <TR> <TD>Password</TD> <TD>
+ <INPUT type="password" name="pass"> </TD> </TR> <TR> <TD> Confirm Password </TD> <TD> <INPUT type="password" name="cpass">
+ <BR>Gender : 
+<INPUT type="radio" value="female" name ="r1"> Female  <INPUT type="radio" value="male" name ="r2"> Male 
+<BR> <BR>
+ Age : 
+<SELECT>
+<OPTION selected> --Age Group-- </OPTION>
+<OPTION> 0-5 years </OPTION>
+<OPTION> 6-12 years </OPTION>
+<OPTION> 13-18 years </OPTION>
+<OPTION> 18-24 years </OPTION>
+<OPTION> 25-39 years </OPTION>
+<OPTION> 40-49 years </OPTION>
+<OPTION> 50-59 years </OPTION>
+<OPTION> 60-74 years </OPTION>
+<OPTION> 75 or above </OPTION>
+</SELECT>
+<BR> <BR>
+
+<INPUT name="update" type="submit" id="update" value="SUBMIT"> </TD>
+</form>  
+<?PHP
+}
+?>
+</BODY> </HTML>
