@@ -36,13 +36,13 @@ BODY
   .sidenav a {font-size: 18px;}
 }
 </STYLE> </HEAD> <BODY>
-<div id="mySidenav" class="sidenav"> 
+<DIV id="mySidenav" class="sidenav"> 
   <A href="javascript:void(0)" class="closebtn" onclick="closeNav()"> &times; </A>
   <A href="aboutus.html"> About Us </A>
   <A href="http://localhost/sign.PHP"> Register </A>
   <A href="http://localhost/bmi.PHP"> BMI calculator </A>
   <A href="Experiences.html"> Reviews </A>
-  <A href="Contact.html"> Contact </A> </div>
+  <A href="Contact.html"> Contact </A> </DIV>
 <SPAN style="font-size:30px;cursor:pointer" onclick="openNav()"> &#9776; </SPAN> <SCRIPT>
 function openNav() 
 {
