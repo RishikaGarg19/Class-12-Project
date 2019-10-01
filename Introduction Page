@@ -1,0 +1,31 @@
+<HTML> <HEAD> <TITLE> Aiming for fitness </TITLE>
+<LINK rel="stylesheet" type="text/css" href="Weight.css">
+</HEAD>
+<BODY bgcolor="#EBD6FF" leftmargin="35" rightmargin="30" topmargin="10">
+<SCRIPT language="JavaScript">
+var date=new Date() ;
+document.write ("<H5>" + date + "</H5>")
+</SCRIPT>
+
+<IMG src="i.jpg" height ="300" width="450" align="left">
+<IMG src="Weight-Loss1.jpg" height="300" width="450" align="right"> <BR> <BR>
+<FONT face="Monotype Corsiva" size="5" color="#F70D0D"> <B>
+
+Welcome to our website ! We're glad you decided to check our site out and we assure you that you'll find everything you need to know to be fit and healthy, here ! <BR> <BR>
+
+The motive behind the creation of our website is to help people realise the importance of being fit and aid them in achieving their fitness goals easily .
+</B> </FONT> <CENTER>
+<BR> <BR> <BR> <BR> <BR>
+
+<FONT face="Niagara Engraved" color="#00AB57" size="5" style="letter-spacing:1px">
+Weight management is a long-term approach to a healthy lifestyle. It includes a balance of healthy eating and physical exercise to equate energy expenditure and energy intake. Developing healthy eating habits while using tips that will keep us fuller longer can be useful tools in weight management. Knowing what your BODY needs is important to weight management and can control overconsumption and underconsumption of food. <BR>
+
+Weight management does not include fad diets that promote quick, temporary weight loss/gain. It focuses on the long-term results that are achieved through slow weight loss/gain, followed by retention of an ideal BODY weight for age, sex and height. <BR> <BR>
+
+Obesity is a risk factor for many chronic diseases such as Type 2 diabetes, hypertension and cardiovascular disease. Managing one’s weight is one factor in preventing such chronic diseases. <BR> <BR>
+
+Underweight might be secondary to or symptomatic of an underlying disease. Underweight can also be a primary causative condition. Severely underweight individuals may have poor physical stamina and a weak immune system, leaving them open to infection. <BR> <BR> <BR> <BR>
+</FONT>
+</B>
+</BODY>
+</HTML>
