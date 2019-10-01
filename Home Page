@@ -36,7 +36,7 @@ BODY
   .sidenav a {font-size: 18px;}
 }
 </STYLE> </HEAD> <BODY>
-<div id="mySidenav" class="sidenav">
+<div id="mySidenav" class="sidenav"> 
   <A href="javascript:void(0)" class="closebtn" onclick="closeNav()"> &times; </A>
   <A href="aboutus.html"> About Us </A>
   <A href="http://localhost/sign.PHP"> Register </A>
