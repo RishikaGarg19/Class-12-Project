@@ -1,0 +1,13 @@
+<HTML>
+<HEAD>
+<TITLE> Welcome </TITLE>
+</HEAD>
+<BODY background="new3.jpeg" topmargin="250" text="white">
+<font face="comic sans ms" color="white" size="7"> <CENTER>
+Balanced mind in a <BR> Balanced BODY
+<BR> </FONT>
+<!-- Welcome Page -->
+<font face="comic sans ms" size="3" color="white"> <I>
+<A href="intro.html"> ~Continue~ </A> </I> </FONT>
+</BODY>
+</HTML>
