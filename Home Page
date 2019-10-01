@@ -1,0 +1,65 @@
+<HTML> <HEAD> <TITLE> Aiming for fitness </TITLE>
+<LINK rel="stylesheet" type="text/css" href="Weight.css">
+</HEAD>
+<BODY bgcolor="#EBD6FF" leftmargin="35" rightmargin="30" topmargin="10">
+<SCRIPT language="JavaScript">
+var date=new Date() ;
+document.write ("<H5>" + date + "</H5>")
+</SCRIPT> <HTML> <HEAD> <STYLE>
+BODY 
+{
+    font-family: "Lato", sans-serif;
+}
+.sidenav 
+{
+    height: 100%;   width: 0;  position: fixed;
+    z-index: 1;    top: 0;   left: 0;    background-color: #111;
+    overflow-x: hidden;    transition: 0.5s;   padding-top: 60px;
+}
+.sidenav a 
+{
+    padding: 8px 8px 8px 32px;    text-decoration: none;
+    font-size: 25px;    color: #818181;    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover, .offcanvas a:focus
+{   color: #f1f1f1;
+}
+.sidenav .closebtn 
+{    position: absolute;    top: 0;
+    right: 25px;    font-size: 36px;    margin-left: 50px;
+}
+@media screen and (max-height: 450px) 
+{
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</STYLE> </HEAD> <BODY>
+<div id="mySidenav" class="sidenav">
+  <A href="javascript:void(0)" class="closebtn" onclick="closeNav()"> &times; </A>
+  <A href="aboutus.html"> About Us </A>
+  <A href="http://localhost/sign.PHP"> Register </A>
+  <A href="http://localhost/bmi.PHP"> BMI calculator </A>
+  <A href="Experiences.html"> Reviews </A>
+  <A href="Contact.html"> Contact </A> </div>
+<SPAN style="font-size:30px;cursor:pointer" onclick="openNav()"> &#9776; </SPAN> <SCRIPT>
+function openNav() 
+{
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() 
+{
+    document.getElementById("mySidenav").style.width = "0";
+}
+</SCRIPT> </BODY> </HTML> 
+<CENTER> <H1> <SPAN style="color : #FF73AB ; font-family : Imprint MT Shadow">
+CONGRATULATIONS !!! <BR>
+You've taken the first step towards <B> being fit </B> ! </SPAN> </H1> </CENTER> <BR> <BR>
+<MARQUEE> <IMG src="weight-loss-pills.jpg" height="400" width="400"> &nbsp; &nbsp;
+<IMG src="Weight-Loss1.jpg" height="400" width="400"> &nbsp; &nbsp; <IMG src="i.jpg" height="400" width="400"> &nbsp; &nbsp; </MARQUEE>
+} </STYLE> </HEAD>
+<SPAN> <P align="left"> <FONT color="#944D47" style="text-align:right" face="Times New Roman"> Our website is sponsored by the <A href="http://mohfw.gov.in/"> Ministry of Health and Family Welfare </A>, with the aim of educating people about the importance of attaining the right height and weight . </FONT> </P>  </SPAN>
+</B> </FONT> </UL>
+</BODY> </HTML>
