@@ -1,0 +1,60 @@
+<HTML>
+<HEAD> <TITLE> Staying Fit </TITLE>
+<LINK rel="stylesheet" type="text/css" href="Weight.css">
+</HEAD>
+
+<BODY bgcolor="#EBD6FF">
+<A name="top"> </A>
+<H1> <CENTER> <U> <B> HOW TO CONTINUE STAYING FIT ? </B> </U> </CENTER> </H1> <BR>
+<CENTER>
+<IMG src="https://s-media-cache-ak0.pinimg.com/originals/6f/3d/73/6f3d73f38ac16edbde5b1a5e36c5d595.jpg" height="300" width="500" align="center"> 
+</CENTER> <BR> <BR> 
+
+<UL>
+<LI> <H4> <U> <B> EAT WELL </B> </U> </H4> 
+<IMG src="http://www.insignia-lb.com/wp-content/uploads/2012/11/diet.jpeg" height="150" width="200"> <BR>
+<P align="left"> 
+Studies have shown that around 80% of any fitness goal depends on your diet, be it weight loss, muscular development or training for an event. <BR>
+Eating a good balance of clean carbohydrates, fresh protein and healthy fats will give you the energy to aid your fitness challenge and show results quickly. <BR>
+For the most part, when being coached for weight loss and definition, it is advised to eat three meals and two snacks to help keep the metabolism burning at a constant rate. <BR> </P> </LI>
+<BR> 
+<LI> <H4> <U> <B>  BE WELL-HYDRATED </B> </U> </H4>
+<IMG src="http://www.insignia-lb.com/wp-content/uploads/2012/11/black-woman-drinking-water.jpeg" height="150" width="250">
+<P align="left">
+Hydration is key to staying healthy; after all, about 70% of the body is made up of water ! <BR> </P> </LI>
+<BR>
+<LI> <H4> <U> <B> GOALS AND ROUTINES </B> </U> </H4>
+<IMG src="https://www.bodybuilding.com/fun/images/2015/jamie-eason_livefit_calendar_banner.png" height="150" width="200"> <BR>
+<P align="left">
+Set a goal ! Be it a month, a week or day long . Just a little effort of 20 minutes planning will make a world of difference to your workouts and general health.
+You will know what you have to do and when, spreading your workouts and activities over the week will give your body time to recover and allow you to enjoy exercise. <BR> </P> </LI>
+<BR>
+<LI> <H4> <U> <B> SEEK PROFESSIONAL ADVICE </B> </U> </H4>
+<IMG src="http://www.wikihow.com/images/b/b4/Cope-With-Depression-Without-Seeking-Professional-Help-Step-6-Version-2.jpg" height="150" width="200"> <BR>
+<P align="left">
+Seeking advice from health and fitness professionals can open doors you never knew existed. There are thousands of online blogs, Facebook pages and Twitteratis that you can follow to pick up free tips and advice. <BR>
+Never be afraid to ask, that’s why health and fitness professionals exist, no matter the question, a good professional will give you an answer or pass you on to someone who may have a better knowledge in the particular subject. <BR> </P> </LI>
+<BR>
+<LI> <H4> <U> <B> WORK OUT </B> </U> </H4> <IMG src="https://www.cdc.gov/bam/activity/images/spotlight-activities.gif" height="150" width="300"> <BR>
+<P align="left">
+Eating the right diet will only prevent further weight gain and maybe help you lose a few kilograms . However, unless you work out to burn those carbs that are making you overweight, you'll have a hard time coming out of this category . <BR>
+So go ahead, join the gym or yoga classes ! <BR> </P> </LI> 
+<BR>
+<LI> <H4> <U> <B> BE POSITIVE </B> </U> </H4> <IMG src="http://pad1.whstatic.com/images/thumb/0/04/Be-Positive-Step-6-Version-3.jpg/aid112541-728px-Be-Positive-Step-6-Version-3.jpg" height="150" width="200"> <BR>
+<P align="left">
+Have confidence in yourself and don't be discouraged if your goals aren't achieved in the set time . It's okay to extend time limits as long as you work consistently . You're doing this for nobody but yourself, after all . <BR> </P> </LI>
+</UL>
+
+<CENTER>
+<BR> <BR>
+<IFRAME width="560" height="315" src="https://www.youtube.com/embed/iLMfNcQSTzY" frameborder="0" allowfullscreen> </IFRAME>
+<BR> <BR>
+</CENTER> 
+
+<BR> <BR> <BR> <BR>
+<A href="Importance.HTML"> Find out why it's important to stay fit </A> <BR>
+<A href="intro.html"> Go back to the homepage </A> <BR>
+<A href="http://localhost/bmi.PHP "> Go back to the BMI calculator </A> <BR>
+<A href="#top"> Jump to the top </A> <BR>
+</BODY>
+</HTML>
