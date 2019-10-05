@@ -1,0 +1,90 @@
+<HTML> 
+<HEAD> <TITLE> Calculate your BMI </TITLE>
+
+<SCRIPT langauge="JavaScript">
+function BMI()   
+{
+  var a = document.f1.height.value
+  var b = document.f1.weight.value
+  var c = a/100   
+  var d = c*c  
+  var e = b/d
+  document.f1.bmi.value = e
+  if (e<18.5)  
+  {   alert ("Looks like you're underweight ! Do check out our diet plan for you !")      }
+  else if (e>=18.5 && e<=25)
+  {   alert ("Your weight is normal according to your height ! Do check out our tips to stay like that !")   }
+  else if (e>25)
+  {  alert ("Seems like you should lose a little weight . . . Why not check out our diet plan for you ?")  }
+  else
+  {  alert ("Please fill the boxes with proper data")  }
+}
+</SCRIPT>
+
+<LINK rel="stylesheet" type="text/css" href="Weight.css"> 
+</HEAD>
+
+<BODY bgcolor="#EBD6FF" text="Cornflower blue" RIGHTMARGIN="10" TOPMARGIN="10" LEFTMARGIN="10">
+
+<?PHP
+if(isset($_POST['update']))
+{
+  $servername = 'localhost' ;
+  $username = 'root' ;
+  $passwd = '' ;
+  $dbname = 'web' ; 
+  $userID=$_POST["userID"] ;
+  $pass=$_POST["pass"] ; 
+  $email=$_POST["email"] ;
+  $bmi=$_POST["bmi"] ;
+  $conn = mysqli_connect ($servername , $username , $passwd , $dbname) ;
+  if (! $conn )
+  {
+    die ( "connection failed : " . mysqli_connect_error () ) ;
+  }
+  $sql = "UPDATE members SET bmi = '$bmi' WHERE userID = '$userID' " ;
+  if (mysqli_query ($conn , $sql))
+  {
+    if (mysqli_affected_rows ($conn) > 0)
+    echo "record inserted successfully" ; 
+  else
+  echo "no data found" ;
+  }
+  else
+  {
+    echo "error updating record: " . mysqli_error
+    ($conn) ; 
+  }
+  mysqli_close ($conn) ;
+}
+?> 
+
+<CENTER>
+<FONT color="coral" face="Showcard Gothic"> <H1> <MARQUEE behavior="alternate"> Calculate your BMI using our metric BMI Calculator ! </MARQUEE> </H1> </FONT>
+<IMG src="download (1).jpg" height="250" width="450" align="right">
+
+<FORM name="f1" method="post" action="<?PHP $_PHP_SELF ?>" > <BR> <BR> <BR>
+<FONT size="5">
+Tell us your height : <INPUT type="text" size="8" name="height"> centimetres <BR> <BR>
+Tell us your weight : <INPUT type="text" size="8" name="weight"> kilograms <BR> <BR> <BR>
+<INPUT type="button" value="Find your BMI now" onClick="BMI()"> <BR> <BR>
+Your BMI is : <INPUT type="text" size="20" name="bmi">
+<BR>
+<BR>
+<INPUT type = "text" name ="userID" id="userID">
+<INPUT name="update" type="submit" id="update" value="UPDATE">
+</FONT>
+<BR> <BR> <BR> <BR> <BR>
+<FONT face="Tempus Sans ITC" color="#1F4DFF" size="4">
+Are you underweight ? Check out a suitable diet chart <A href="Underweight.html"> here </A> ! <BR> <BR>
+Weigh just right and would like to maintain it ? Take a look at our tips for staying fit <A href="Fitness.html"> here </A> ! <BR> <BR>
+Need to lose some weight ? We've got the perfect diet plan for you <A href="Overweight.html"> here </A> ! <BR>
+</FONT>
+</CENTER>
+<BR> <BR>
+
+<A href="Intro.html"> Go back to the homepage </A>
+<BR> <BR> <BR> <BR>
+</FORM>
+</BODY>
+</HTML>
